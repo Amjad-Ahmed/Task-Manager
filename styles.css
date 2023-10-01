@@ -1,0 +1,87 @@
+/* Add your CSS styles here to design the interface */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(15, 12, 189);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.task-form {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.task-form h2 {
+    font-size: 1.2rem;
+}
+
+.task-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task-form button {
+    background-color: rgb(62, 64, 219);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task-list {
+    width: 65%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.task-list h2 {
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #1c2fd6;
+    padding: 20px 0;
+}
+
+.notifications {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.notifications h2 {
+    font-size: 1.2rem;
+}
+
+/* Add more styles as needed */
